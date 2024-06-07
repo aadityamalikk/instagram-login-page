@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.containerF {
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+
+.upper {
+    height: 17vh;
+    border: 2px rgba(103, 103, 255, 0.785) solid;
+    background-color: #4267b2;
+  /*  background-color: rgb(0, 140, 255);*/
+
+}
+
+.facebook {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    ;
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+}
+
+.cna {
+    position: relative;
+    left: 120px;
+    top: 20px;
+    border: none;
+    height: 2.3em;
+    padding: 6px;
+    background-color: rgb(69, 168, 36);
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1em;
+}
+
+.form2 {
+    border: 1px gainsboro solid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 35px;
+    margin-top: px;
+    height: 50vh;
+    width: 60vw;
+    margin: auto;
+
+}
+
+.ltf {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.input {
+    margin-top: 10px;
+    border: 1px gainsboro solid;
+    display: grid;
+    left: 50px;
+    height: px;
+    padding: 8px;
+    width: 30vw;
+    margin-left: 145px;
+
+}
+
+.button {
+    border: none;
+    margin-top: 15px;
+    height: px;
+    padding: 10px;
+    width: 31vw;
+    margin-left: 145px;
+    background-color:#4267b2;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+}
+
+.fa {
+    color:#4267b2;
+    font-size: 14px;
+    position: relative;
+    left: 160px;
+    top: 15px;
+}
+.suff {
+    color: #4267b2;
+    position: relative;
+    left: 170px;
+    top: 15px;
+    font-size: 14px;
+}
+
+.nn {
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+    left: 270px;
+    color:#4267b2;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.cna:hover{
+    background-color: rgb(35, 130, 3);
+}
+
+.button:hover{
+    background-color:#0c44b4;
+}

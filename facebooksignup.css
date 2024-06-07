@@ -1,0 +1,141 @@
+.img{
+    height:  150px ;
+    width: 300px;
+}
+.image{
+    justify-content: center;
+    display: grid;
+    height: 200px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 500px;
+    width: 450px;
+    border: 2px gainsboro solid ;
+margin-top: -60px;
+    border-radius: 7px ;
+    
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 4 ;
+}
+body{
+display: grid;
+justify-content: center;
+background-color: whitesmoke;
+
+}
+.fnsn {
+    display: flex;
+    gap: 10px; 
+    
+
+}
+
+.border{
+    border: 2px gainsboro solid;
+    padding: 8px;
+    height: 25px;
+    width: 430px;
+    border-radius: 3px;
+
+    
+    
+}
+.fnsn input{
+    border: 2px gainsboro solid;
+    padding: 4px;
+    height: 25px;
+    width: 206px;
+    border-radius: 3px;
+}
+.dateofbirth{
+text-align: left;
+margin-bottom: 57px;
+color: grey;   font-family: sans-serif;
+font-size: .8em;
+}
+.dob{
+    margin-top: -60px;
+}
+.gender{
+    width: 450px;
+    border: 3px black;
+    height: 50px;
+    display: flex;
+justify-content: center;
+    gap: 15px;
+}
+.genders{
+    border: 2px gainsboro solid;
+    padding: 10px;
+    width: 130px;
+    border-radius: 3px;
+    color: grey;
+    height: 20px;
+
+}
+.gender1{
+    text-align: left;
+    font-size: .8em;
+    color: grey;
+
+
+}
+.para1{
+    text-align: left;
+    color: grey;
+    font-size: .8em;
+    
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.signup{
+    width: 200px;
+margin: auto;
+margin-top: 20px;
+border: none;
+height: 35px;
+border-radius: 5px;
+background-color: rgb(3, 154, 15);
+color: white;
+font-weight: bold;
+}
+.upper{
+    border-bottom: 3px gainsboro solid;
+    padding-bottom: 10px;
+}
+.para{
+    color: gray;
+}
+
+
+.ahaa{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: rgb(5, 137, 244);
+
+}
+a{
+    cursor: pointer;
+}
+.cna{
+    font-family: sans-serif;
+    margin-top: -15px;
+    
+}
+.signup:hover{
+    background-color:rgb(0, 102, 9);
+}
+

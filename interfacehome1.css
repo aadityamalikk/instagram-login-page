@@ -1,0 +1,328 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    height:100%;
+    width: 100%;
+    display: flex;
+}
+.homepage{
+    width: 80%;
+    position: relative;
+    left: 20%;
+    height:max-content;
+    /* background-color: red; */
+    display: flex;
+}
+.main{
+    width: 65%;
+    height: max-content;
+    /* background-color: pink; */
+}
+
+.suggestion{
+    width: 35%;
+    height:max-content;
+}
+.suggestion_main{
+    height: 500px;
+    width: 85%;
+    /* background-color: blueviolet; */
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+}
+.suggestion_my{
+    height: 60px;
+    width: 100%;
+    display: flex;
+
+
+}
+.sfu{
+    height: 20px;
+    width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+
+
+}
+.sug_img_box{
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.sug_img_circle{
+    height:40px;
+    width: 40px;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+
+}
+.img_pic{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.sug_my_id{
+    display: flex;
+    /* background-color: aqua; */
+    width:85%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5px;
+}
+.linkaaditya{
+    font-size: 14px;
+    font-weight: 400;
+}
+.sug_myname{
+    font-size: 11px;
+    color: grey;
+
+}
+.switch{
+    font-size: 11px;
+    /* color: rgb(76, 181, 242); */
+}
+.switch a{
+    color: rgb(76, 181, 242);
+    font-weight: bold;
+}
+.sfu :first-child{
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+
+}
+.seeall{
+    font-size: 11px;
+    color: black;
+    font-weight: bold;
+}
+.maxbox{
+    width: 100%;
+    height: max-content;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+
+}
+.maxpostbox{
+    width: 80%;
+    height:max-content;
+    /* background-color: chocolate; */
+    
+
+}
+.postbox{
+    width: 80%;
+    height: 700px;
+    /* background-color: chartreuse; */
+    margin: auto;
+    /* margin-bottom: 20px; */
+   margin-top: 10px;
+   border-bottom: 2px solid rgb(73, 4, 4);
+    
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.post_circle{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(174, 3, 97);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 20px; */
+    
+}
+.post_profile{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+
+}
+.post_id{
+    width: 90%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+
+}
+.post_id p{
+    font-size:.8em;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.imagebox{
+    width: 100%;
+    height: 500px;
+    /* background-color: darkslategrey; */
+    border-radius: 2px;
+}
+.video{
+    height: 500px;
+    width: 100%;
+    border-radius: 2px;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+.symbols{
+    height: 45px;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.like_share{
+    display: flex;
+    align-items: center;
+    width:150px ;
+    height: 100%;
+    gap: 5px;
+    /* margin-left: 15px; */
+
+}
+.symbols_img{
+    height: 30px;
+}
+post_comment_grid{
+    display: flex;
+    flex-direction: column;
+
+}
+.likes{
+    font-size: .9em;
+    font-weight: 500;
+}
+.add_comment{
+    font-size: .9em;
+    font-weight: 600;
+    color: gray;
+}
+.margin{
+    margin-left: 15px;
+}
+
+
+.options{
+    width: 20%;
+    height:100%;
+    border-right: 2px gainsboro solid;
+    position: fixed;    
+}
+.logo{
+    height: 40px;
+    margin: 20px;
+}
+.option{
+    display:flex;
+    gap: 20px;
+    padding: 5px;
+    height: 51.7px;
+    
+    
+    
+
+    
+}
+
+.logos{
+    height: 30px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black; font-size: 1.1em;
+    margin-top: 5px;
+}
+.stories{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+}
+
+.options:hover{
+    background-color: rgba(160, 28, 28, 0);
+
+}
+.option:hover{
+    background-color: rgb(225, 224, 224);
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+.storycircle{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* border: 2p ; */
+
+    background:linear-gradient(to left bottom,rgb(128, 0, 119),rgb(255, 64, 0),rgb(255, 230, 0)) ;
+    border-radius: 50%;
+    padding: 2.1px;
+    box-sizing: content-box;
+}
+
+.profilesmallcircle{
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-left: 7px;
+
+}
+.smallpic{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+    
+
+    
+
+
+
+a:hover{
+    font-weight: bold;
+
+}
+    
+
+button:hover{
+    cursor:pointer;
+    background-color: rgb(177, 176, 176);
+    font-weight: bold;
+}
+.storycircle img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}

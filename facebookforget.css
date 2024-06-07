@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+   padding: 0;}
+   .container{
+
+   }
+   .nav{
+    width: 1167px;
+    height: 50px;
+    border: 2px gainsboro solid;
+    background-color: white;
+    display: flex;
+   }
+   .image{
+    height: 58px;
+   }
+   body{
+    background-color: rgb(234, 233, 233);
+    
+   }
+   .inputs{
+    position: absolute;
+    left: 550px;
+    padding: 5px;
+     }
+     .input{
+        padding: 5px;
+        border: 2px gainsboro solid;
+        border-radius: 3px;
+        height: 25px;
+
+     }
+     .button1{
+        width: 60px;
+        margin-left: 5px;
+        height: 35px;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        background-color:  rgb(39, 136, 192);
+        margin-right: 5px;
+     }
+     .forget{
+        text-decoration: none;
+        font-family: sans-serif;
+        color:  rgb(39, 136, 192);;
+     }
+     .box{
+        border: 2px gainsboro soild;
+        border-radius: 8px;
+        height: 260px;
+        width: 450px;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: sans-serif;
+        position: absolute;
+        left: 350px;
+        top: 100px;
+    
+     }
+     .fya{
+        border-bottom: .5px gainsboro solid;
+        padding: 10px;
+        text-align: left;
+        font-size: .9em;
+     }
+     .text2{
+        
+        text-align: left;
+        padding: 10px;
+     }
+     .email{
+        border: 2px gainsboro solid;
+        width:400px ;
+        height: 40px;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+     }
+     .mid{
+        border-bottom:.5px gainsboro solid;
+
+     }
+     .bottom{
+        position:relative;
+        top: 25px;
+        left: 140px;
+     }
+     .cancel{
+        width: 70px;
+        padding: 7px;
+        border: none;
+        border-radius:3px ;
+        color: white;
+        font-weight: bold;
+        background-color:rgb(205, 204, 204);
+
+
+     }
+     .search{
+        width: 70px;
+        padding: 7px;
+        border: none;
+        border-radius:3px ;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(39, 136, 192);
+
+           
+     }
+     button:hover{
+        background-color:  rgb(8, 113, 173);
+     }
+     a:hover{
+        text-decoration: underline;
+     }
+    

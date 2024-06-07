@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.conatiner1{
+    border: 2px gainsboro solid;
+    margin: 5px;
+    justify-content: center;
+    
+
+}
+.form{
+    display:grid;
+    height: 460px;
+    width: 346px;
+    justify-content: center;
+    border: 2px gainsboro solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin:auto;
+    margin-top: 50px;
+    left: 50px;
+    top: 10px;
+    position: relative;
+}
+.img{
+    margin:auto;
+    height:100px;
+}
+.container2{
+    justify-content: center;
+    border: 2px gainsboro solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin:auto;
+    text-align: center;
+    width: 346px;
+    margin-top: 10px;
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+.input{
+    width: 300px;
+    margin: 10px;
+    border-radius: 3px ;
+padding-left: 7px;
+    border:1px gainsboro solid;
+
+}
+.button{
+    width: 307px;
+    border: none;
+    background-color: rgb(76, 181, 242);
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+.or{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 10px;
+    
+}
+.liwf{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 80px;
+    color: rgb(84, 84, 232);
+}
+.fp{
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 115px;
+    color:  rgb(84, 84, 232);
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.signup{
+    font-weight: bold;
+    color:rgb(76, 181, 242) ;
+    text-decoration: none;
+}
+.gta{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    position: relative;
+    left:40px;
+}
+button:hover{
+    background-color:  rgb(4, 153, 240);
+}
+.imggetapp{
+position: relative;
+    left:100px;
+    border: none;
+    overflow: cover;
+    display: flex;
+    flex-direction: row;
+
+}
+.microsoft{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+}
+.appstore{
+    height: 40px;
+    width: 110px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+  
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phone{
+    position: relative;
+    left: 12px;
+}
+

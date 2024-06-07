@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.conatiner1{
+    border: 2px gainsboro solid;
+    margin: 5px;
+    justify-content: center;
+}
+.form{
+    display:grid;
+    height: 600px;
+    width: 400px;
+    justify-content: center;
+    border: 2px gainsboro solid;
+    border-radius: 3px;
+    padding: 5px;
+    margin:auto;
+    margin-top: 50px;
+}
+.img{
+    margin:auto;
+    height:100px;
+}
+
+
+.input{
+    width: 350px;
+    margin-left: 30px;
+    border-radius: 3px ;
+padding-left: 7px;
+    border:1px gainsboro solid;
+    font-weight: bold ;
+font-size: 1.1em;
+color:   rgb(107, 106, 106);
+box-sizing: border-box;
+
+}
+.button{
+    width: 357px;
+    border: none;
+    background-color: rgb(76, 181, 242);
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+}
+.or{
+    text-align: center;
+    margin-top: 10px;
+ color:   rgb(107, 106, 106);
+    
+}
+.cna{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 120px;
+    color: black;
+}
+.crp{
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-left: 115px;
+    color:  rgb(84, 84, 232);
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.trouble{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+.eye{
+  color:   rgb(107, 106, 106) ;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btl{
+border:1px gainsboro solid;
+margin-bottom: 0;
+width:411px ;
+}
+button:hover{
+    background-color:  rgb(39, 136, 192);
+}
+
+
